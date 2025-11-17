@@ -1,0 +1,4 @@
+p=open("C:/fdrive/B.Tech 1st sem 1st batch 2024-25/Python 2/13.11.25/file/Dip.txt","r")
+for x in p.readlines():
+    print(x,end='')
+p.close()

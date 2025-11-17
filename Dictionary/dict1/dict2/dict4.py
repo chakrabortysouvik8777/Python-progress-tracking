@@ -1,0 +1,10 @@
+#del(),clear(),pop(),popitem()
+x={1:"Comeback",2:"CSK",3:'Prince',4:"King"}
+print(x.clear())
+x={1:"Pritha",2:"Tithi",3:'Epshita',4:"Sayontan"}
+del(x[4])
+print(x)
+x.pop(2)
+print(x)
+x.popitem()
+print(x)

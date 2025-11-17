@@ -1,0 +1,6 @@
+p=open("C:/fdrive/B.Tech 1st sem 1st batch 2024-25/Python 2/13.11.25/file/Dip.txt","w")
+p.write("Puskar chiro single hoye morbe!!!!")
+p.close()
+p=open("C:/fdrive/B.Tech 1st sem 1st batch 2024-25/Python 2/13.11.25/file/Dip.txt","r")   
+print(p.read())
+p.close()
